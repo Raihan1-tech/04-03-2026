@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form id="registrationForm">
+        <p>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your name">
+        </p>
+        <p id="FullnameFeedback"></p>
+        <p>
+            <label for="dateOfBirth"></label>Date of Birth:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+        </p>
+        <p id="DateOfBirthFeedback"></p>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male   
+            <input type="radio" name="gender" value="Female"> Female
+        </p>
+        <p id="GenderFeedback"></p>
+        <p>
+        <label>Religion:</label>
+        <select id="religion">
+            <option value="">--Select Religion--</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="kristen">kristen</option>
+            <option value="Other">Other</option>
+        </select>
+    </p>
+    <p id="ReligionFeedback"></p>
+    <p>
+     <label>How did you get information about the school:</label>
+     <br>
+        <input type="checkbox" class="program" value="Brochure"> Brochure
+        <br>
+        <input type="checkbox" class="program" value="newspaper"> Newspaper
+        <br>
+        <input type="checkbox" class="program" value="banner"> Banner
+        <br>
+        <input type="checkbox" class="program" value="website"> Website
+        <br>
+        <input type="checkbox" class="program" value="friend"> Friend
+        <br>
+        <input type="checkbox" class="program" value="other"> Other
+    </p>
+    <p id="InformationFeedback"></p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Cancel">
+        </p>
+    </form>
+    
+</body>
+</html>
